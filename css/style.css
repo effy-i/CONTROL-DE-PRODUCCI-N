@@ -1,0 +1,85 @@
+body{
+background: linear-gradient(to right,#ffe4ec,#fff1f5);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h1{
+color: #b83280;
+margin-bottom: 30px;
+font-size: 40px;
+}
+
+table{
+width: 700px;
+background-color: white;
+border-collapse: collapse;
+border-radius: 20px;
+overflow: hidden;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.12);
+}
+
+td{
+padding: 18px;
+font-size: 18px;
+border-bottom: 1px solid #f8cddd;
+}
+
+tr:hover{
+background-color: #fff5f8;
+}
+
+td:first-child{
+background-color: #ffeef4;
+width: 35%;
+font-weight: bold;
+color: #9d174d;
+}
+
+/* RENDIMIENTO */
+
+.bajo{
+color: #dc2626;
+font-weight: bold;
+font-size: 20px;
+}
+
+.aceptable{
+color: #d97706;
+font-weight: bold;
+font-size: 20px;
+}
+
+.excelente{
+color: #16a34a;
+font-weight: bold;
+font-size: 20px;
+}
+
+/* FOOTER */
+
+footer{
+width: 100%;
+margin-top: 40px;
+background-color: white;
+padding: 20px;
+text-align: center;
+box-shadow: 0px -5px 15px rgba(0,0,0,0.10);
+border-top: 5px solid #f9a8d4;
+}
+
+footer p{
+margin: 8px;
+color: #9d174d;
+font-size: 16px;
+}
+
+footer p:first-child{
+font-size: 22px;
+color: #b83280;
+font-weight: bold;
+}
