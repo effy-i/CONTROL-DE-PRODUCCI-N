@@ -3,7 +3,8 @@
 // ======================================
 
 let nombreOperario = prompt("Ingrese el nombre del operario:");
-while (nombreOperario == "" || nombreOperario == null){
+while(nombreOperario == "" ||nombreOperario == null || !isNaN(nombreOperario))
+{
 nombreOperario = prompt("ERROR.\nIngrese un nombre válido:");
 }
 // ======================================
